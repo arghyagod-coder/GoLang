@@ -5,7 +5,7 @@ echo "Adding drs into PATH..."
 
 mkdir -p ~/.drs
 
-chmod u+x ./drs
+chmod u+x ./drs/drs
 
 mv ./drs ~/.drs
 set -U fish_user_paths ~/.drs/ $fish_user_paths 

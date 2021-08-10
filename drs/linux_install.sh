@@ -7,7 +7,7 @@ echo "Adding drs into PATH..."
 
 mkdir -p $HOME/.drs
 mv ./drs-linux-amd64 ~/.drs/drs
-chmod u+x ~/.drs/drs
+chmod +x ~/.drs/drs
 echo "PATH=$PATH:~/.drs" >> /etc/environment  
 echo "drs installation is completed!"
 rm -rf ./drs-linux-amd64

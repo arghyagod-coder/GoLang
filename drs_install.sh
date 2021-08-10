@@ -6,7 +6,7 @@ wget "https://github.com/arghyagod-coder/GoLang/releases/latest/download/drs.go-
 echo "Adding drs into PATH..."
 
 mkdir -p $HOME/.drs
-mv ./drs.go-linux-amd64 ~/.drs/drs
+mv ./drs.go-linux-amd64 ~/.drs
 echo "PATH=$PATH:~/.drs" >> /etc/environment  
 echo "drs installation is completed!"
 rm -rf ./drs.go-linux-amd64

@@ -27,7 +27,7 @@ func main() {
 		if strings.ToLower(latika) == "online" {
 			fmt.Println("You are in waiting room.")
 			fmt.Println("SHOWING MEETING SETTINGS....")
-			fmt.Println("Impostors: %v", maun)
+			fmt.Printf("Impostors: %v\n", maun)
 			fmt.Println("Emergency Meetings:", baun)
 			fmt.Println("Player Speed: ", bawa, "x")
 			fmt.Println("Impostor Speed: ", bawa, "x")

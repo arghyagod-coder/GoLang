@@ -20,9 +20,23 @@
 Execute the following command as **Root User** (sudo su):
 
 ```bash
-curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/drs/linux_install.sh > drs_install.sh
+# Bash Users
+
+curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/drs/linux/bash_install.sh > drs_install.sh
 chmod u+x ./drs_install.sh
 bash ./drs_install.sh
+
+# Fish Users
+
+curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/drs/linux/fish_install.sh > drs_install.sh
+chmod u+x ./drs_install.sh
+fish ./drs_install.sh
+
+# Zsh Users
+
+curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/drs/linux/zsh_install.sh > drs_install.sh
+chmod u+x ./drs_install.sh
+sh ./drs_install.sh
 ```
 
 

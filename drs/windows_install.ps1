@@ -1,7 +1,7 @@
 
 Write-Host "Downloading drs..."
 
-$url = "https://github.com/arghyagod-coder/GoLang/releases/latest/download/drs.go-windows-amd64.exe"
+$url = "https://github.com/arghyagod-coder/GoLang/releases/latest/download/drs-windows-amd64.exe"
 
 $dir = $env:USERPROFILE + "\.drs"
 $filepath = $env:USERPROFILE + "\.drs\drs.exe"

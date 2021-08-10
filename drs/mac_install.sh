@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Downloading drs..."
-curl -L "https://github.com/arghyagod-coder/GoLang/releases/latest/download/drs.go-darwin-amd64" -o drs
+curl -L "https://github.com/arghyagod-coder/GoLang/releases/latest/download/drs-darwin-amd64" -o drs
 
 echo "Adding drs into PATH..."
 

@@ -20,7 +20,7 @@
 Execute the following command as **Root User** (sudo su):
 
 ```bash
-curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/main/drs/linux_install.sh > drs_install.sh
+curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/drs/linux_install.sh > drs_install.sh
 chmod u+x ./drs_install.sh
 bash ./drs_install.sh
 ```
@@ -31,7 +31,7 @@ bash ./drs_install.sh
 Execute the following command as **Root User** (sudo su):
 
 ```bash
-curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/main/drs/mac_install.sh > drs_install.sh
+curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/drs/mac_install.sh > drs_install.sh
 chmod +x ./drs_install.sh
 bash ./drs_install.sh
 ```
@@ -40,7 +40,7 @@ bash ./drs_install.sh
 
 Open Powershell **as Admin** and execute the following command:
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/arghyagod-coder/GoLang/main/drs/windows_install.ps1 -UseBasicParsing).Content | powershell -
+Set-ExecutionPolicy Bypass -Scope Process -Force; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/drs/windows_install.ps1 -UseBasicParsing).Content | powershell -
 ```
 
 To verify the installation of *drs*, open a new shell and execute `drs -v`. You should see output like this:

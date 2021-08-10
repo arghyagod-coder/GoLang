@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 platforms=("windows/amd64" "darwin/amd64" "linux/amd64")
-app_name="amongUs.go"
+app_name="drs"
 
 for platform in "${platforms[@]}"
 do

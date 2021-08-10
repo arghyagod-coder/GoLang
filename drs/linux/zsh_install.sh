@@ -7,6 +7,6 @@ mkdir -p ~/.drs
 
 mv ./drs-linux-amd64 ~/.drs/drs
 chmod +x ~/.drs/drs
-set -U fish_user_paths ~/.drs/ $fish_user_paths 
+echo "export PATH=$PATH:~/.drs" >> ~/.zshrc
 echo "drs installation is completed!"
-echo "You need to restart the shell to use drs." 
+echo "You need to restart the shell to use drs."
